@@ -1,0 +1,35 @@
+body {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.Home {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Home div {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  height: 30vh;
+  background: #1b1b1b;
+  border-radius: 13px;
+}
+.Donelist {
+  gap: 20px;
+}
+.List p {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.Donelist p {
+  color: white;
+}

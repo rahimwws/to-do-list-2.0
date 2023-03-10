@@ -1,0 +1,51 @@
+body {
+  padding: 0% 15px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 70px;
+  border-radius: 7px;
+  background: #1b1b1b;
+}
+.Btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #292929;
+  border-radius: 4px;
+}
+.Btn img {
+  width: 34px;
+  height: 20px;
+}
+.logo > img{
+ width: 50px;
+}
+.logo {
+  background-color: inherit;
+  border: none;
+}
+.container >p{
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
